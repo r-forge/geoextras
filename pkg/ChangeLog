@@ -1,3 +1,7 @@
+2010-11-15  Arni Magnusson  <arnima@hafro.is>
+
+	* man/d2ir.Rd: Simplify help page and reformat to 72 cols.
+
 2010-11-11  Sigurdur Thor Jonsson  <sigurdur@hafro.is>
 
 	* data/zbyrec.rda: New dataset.
