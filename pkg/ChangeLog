@@ -1,3 +1,57 @@
 2010-11-11  Sigurdur Thor Jonsson  <sigurdur@hafro.is>
 
-	* Released the beginnings of a package on 'R-forge'
+	* data/zbyrec.rda: New dataset.
+
+	* man/d2ir.Rd: New help page.
+
+	* man/degrees2rectangles.Rd: New help page.
+
+	* man/geoconvert.Rd: New help page.
+
+	* man/geoextras-package.Rd: New help page.
+
+	* man/rectanglePerimeter.Rd: New help page.
+
+	* man/rectangles2degrees.Rd: New help page.
+
+	* man/zbyrec.Rd: New help page.
+
+	* R/d2dr.R: New function.
+
+	* R/d2hr.R: New function.
+
+	* R/d2ir.R: New function.
+
+	* R/d2mr.R: New function.
+
+	* R/d2r.R: New function.
+
+	* R/d2sr.R: New function.
+
+	* R/dr2d.R: New function.
+
+	* R/drPeri.R: New function.
+
+	* R/dumpdata.R: New function.
+
+	* R/geoconvert.1.R: New function.
+
+	* R/geoconvert.2.R: New function.
+
+	* R/geoconvert.R: New function.
+
+	* R/hr2d.R: New function.
+
+	* R/hrPeri.R: New function.
+
+	* R/mr2d.R: New function.
+
+	* R/mrPeri.R: New function.
+
+	* R/r2d.R: New function.
+
+	* R/rPeri.R: New function.
+
+	* R/sr2d.R: New function.
+
+	* R/srPeri.R: New function.

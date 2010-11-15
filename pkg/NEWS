@@ -1,8 +1,6 @@
 --------------------------------------------------------------------------------
-geoextras 0.1-0 11 Nov 2010
+geoextras 0.1-0 (11 Nov 2010)
 --------------------------------------------------------------------------------
 o Released the beginnings of a package on R-forge: degrees2rectangle,
-rectangles2degrees, and rectanglePerimeter functions, a few of them
-borrowed from 'geo'
-
-
+  rectangles2degrees, and rectanglePerimeter functions, a few of them borrowed
+  from 'geo'.

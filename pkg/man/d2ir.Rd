@@ -1,85 +1,77 @@
 \encoding{latin1}
-
 \name{d2ir}
 \alias{d2ir}
-
-\title{Find ICES rectangle code for a position}
-
-\description{Based on an ancient system the North Atlantic was divided into so--called statistical rectangles, this function allocates positions to these recatngles}
-
+\title{Convert Geographic Coordinates to ICES Rectangle}
+\description{
+  This function converts geographic coordinates to ICES North Atlantic
+  statistical rectangles.
+}
 \usage{
-d2ir(lat, lon = NULL, useI = FALSE)
+d2ir(lat, lon=NULL, useI=FALSE)
 }
-
 \arguments{
-  \item{lat}{latitude of positions or if \code{lat} is a list its components \code{lat$lat} and \code{lat$lon} should give latitude and longitude.}
-
-  \item{lon}{longitude of positions, \emph{optional} if \code{lat} contains both lat and lon.}
-
-  \item{useI}{logical, if \code{TRUE}, go against the prescription in ICES CM77/G:3 and use letter 'I', as has been done on occasion.}
-
+  \item{lat}{vector of latitudes, or a list containing \code{lat} and
+    \code{lon}.}
+  \item{lon}{vector of longitudes (ignored if \code{lat} is a list).}
+  \item{useI}{whether to use the letter \sQuote{\samp{I}} in statistical
+    rectangle codes.}
 }
-
 \details{
-The principle of the statistical rectangle coding system is as
-follows:
-
-The latitudinal rows, each of which is 30' high, are numbered (two
-digits) from 01 at the southern boundary of the ICES statistical area
-(36°00'N latitude (see ICES No.2 chart)) northwards to 99. The
-northern limit of the statistical recangle system is thus 85°30'N
-latitude. The longitudinal columns, each of which is 1° wide, are
-coded according to an alphanumeric system which starts at the western
-boundary of the ICES statistical area (44°00'W longitude (see ICES
-No.1 chart)) with A0, continuing A1, A2, A3 to 40°W longitude. East of
-40°W the system continues B0, B1, B2, to B9, C0, C1, C2, ..., C9, etc
-using a different letter for each 10° block and covering the entire
-west-east extent of the ICES statistical area, thus:
-
-\itemize{
-  \item A: 44°W - 40°W
-  \item B: 40°W - 30°W
-  \item C: 30°W - 20°W
-  \item D: 20°W - 10°W
-  \item E: 10°W - 0°
-  \item F: 0°   - 10°E
-  \item G: 10°E - 20°E
-  \item H: 20°E - 30°E
-  \item J: 30°E - 40°E
-  \item K: 40°E - 50°E
-  \item L: 50°E - 60°E
-  \item M: 60°E - 68°30'E (M8)
+  The default \code{useI=FALSE} is in accordance with the prescription
+  in ICES CM77/G:3, but \code{useI=TRUE} has been done on occasion.
 }
-
-Note that letter 'I' is omitted.
-
-When designating a statistical rectangle, the northing co-ordinate is
-to be stated first. Thus, the recangle of which the south-west corner
-is 54°00'N, 3°00'E is designated 37 F3.
-
-}
-\value{
-ICES statitstical rectangle code of position(s).
-}
-
-\references{
-ICES C.M. 1977/Gen:3
-}
-\author{
-\enc{Sigurður}{Sigurdur} \enc{Þór}{Thor} \enc{Jónsson}{Jonsson} with contributions from \enc{Ásta}{Asta} \enc{Guðmundsdóttir}{Gudmundsdottir}
-}
+\value{Vector of strings containing ICES statistical rectangle codes.}
 \note{
-The ices rectangles are the same size as those in the Icelandic system which is used albeit for a different part of the N-Atlantic in \code{d2r} and \code{r2d}.
-}
+  The statistical rectangles are coded as follows:
 
+  The latitudinal rows are 30' high, numbered from
+  \samp{01} at the southern boundary of the ICES statistical area
+  (36°00'N, see ICES No. 2 chart) northwards to \samp{99}. The northern
+  limit of the statistical recangle system is thus 85°30'N. The
+  longitudinal columns are 1° wide, coded in
+  an alphanumeric system which starts at the western boundary of the
+  ICES statistical area (44°00'W, see ICES No.1 chart) with \samp{A0},
+  continuing \samp{A1}, \samp{A2}, \samp{A3} to 40°W. East of 40°W the
+  system continues \samp{B0}, \samp{B1}, \samp{B2}, \ldots, \samp{B9},
+  \samp{C0}, \samp{C1}, \samp{C2}, \ldots, \samp{M8}, using a different
+  letter for each 10° block and covering the entire west-east extent of
+  the ICES statistical area, thus:
+
+  \tabular{lrcrl}{
+    \samp{A0} \tab 44°00'W \tab -- \tab 40°00'W \tab \samp{A3}\cr
+    \samp{B0} \tab 40°00'W \tab -- \tab 30°00'W \tab \samp{B9}\cr
+    \samp{C0} \tab 30°00'W \tab -- \tab 20°00'W \tab \samp{C9}\cr
+    \samp{D0} \tab 20°00'W \tab -- \tab 10°00'W \tab \samp{D9}\cr
+    \samp{E0} \tab 10°00'W \tab -- \tab  0°00'  \tab \samp{E9}\cr
+    \samp{F0} \tab   0°00' \tab -- \tab 10°00'E \tab \samp{F9}\cr
+    \samp{G0} \tab 10°00'E \tab -- \tab 20°00'E \tab \samp{G9}\cr
+    \samp{H0} \tab 20°00'E \tab -- \tab 30°00'E \tab \samp{H9}\cr
+    \samp{J0} \tab 30°00'E \tab -- \tab 40°00'E \tab \samp{J9}\cr
+    \samp{K0} \tab 40°00'E \tab -- \tab 50°00'E \tab \samp{K9}\cr
+    \samp{L0} \tab 50°00'E \tab -- \tab 60°00'E \tab \samp{L9}\cr
+    \samp{M0} \tab 60°00'E \tab -- \tab 68°30'E \tab \samp{M8}\cr
+  }
+
+  Note that letter \sQuote{\samp{I}} is omitted, unless
+  \code{useI=TRUE}.
+
+  When designating a statistical rectangle, the north coordinate is
+  stated first. Thus, the recangle of which the southwest corner is
+  54°00'N, 3°00'E is coded \samp{37F3}.
+}
+\references{ICES C.M. 1977/Gen:3.}
+\author{
+  \enc{Sigurður}{Sigurdur} \enc{Þór}{Thor} \enc{Jónsson}{Jonsson} with
+  contributions from \enc{Ásta}{Asta}
+  \enc{Guðmundsdóttir}{Gudmundsdottir}.
+}
 \seealso{
-  \code{\link{rectangles2degrees}}
+  \code{\link{d2r}} and \code{\link{r2d}} convert between geographic
+  coordinates and Icelandic rectangles (a local coding system using the
+  same rectangle size as the ICES coding system).
 }
-
 \examples{
-d2ir(lat = 54.25, lon = 3.5)
+d2ir(54.25, 3.5)
 }
-
 \keyword{manip}
 \keyword{arith}
-
