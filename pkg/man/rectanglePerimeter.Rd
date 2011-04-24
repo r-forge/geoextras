@@ -27,33 +27,6 @@ drPeri(dr, dlat = 1, dlon = 2)
 %%     ~~Describe \code{dlon} here~~
 }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{
-
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
-\references{
-
-}
-\author{
-
-}
-
-\note{
-
-}
-
-\seealso{
-
-}
-\examples{
-
-}
 
 \keyword{manip}
 \keyword{arith}

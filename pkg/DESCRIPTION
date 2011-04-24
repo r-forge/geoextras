@@ -5,9 +5,8 @@ Title: Extras for Hafro's (MRIs) 'geo' package
 Author: Sigurdur Thor Jonsson, Hoskuldur Bjornsson, Asta Gudmundsdottir, Arni
   Magnusson
 Maintainer: Sigurdur Thor Jonsson <sigurdur@hafro.is>
+Depends: geo
 LazyData: yes
 Description: Functions and data sets that complement the 'geo' package, much
-  used at the Marine Research Institute (Hafro), Reykjavik, Iceland. As 'geo' is
-  not available on 'r-forge', only a few standalone routines will be added to
-  begin with.
+  used at the Marine Research Institute (Hafro), Reykjavik, Iceland.
 License: GPL (>= 2)

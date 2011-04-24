@@ -39,10 +39,3 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 %%~~ Optionally other standard keywords, one per line, from file KEYWORDS in ~~
 %%~~ the R documentation directory ~~
 \keyword{ package }
-\seealso{
-
-
-}
-\examples{
-
-}

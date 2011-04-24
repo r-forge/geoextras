@@ -72,10 +72,6 @@ d2r(lat, lon = NULL)
 
 }
 
-\note{
-%%  ~~further notes~~
-}
-
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{

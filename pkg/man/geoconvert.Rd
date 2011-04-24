@@ -35,9 +35,6 @@ Latitude or longitude or other data in \sQuote{ddd} (decimal degree) format.
 }
 }
 
-\details{
-
-}
 
 \value{
   Positions in the desired format.
