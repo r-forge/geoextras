@@ -66,9 +66,6 @@ r2d(r)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
 
 \note{Mostly used for plotting.}
 
