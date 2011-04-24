@@ -1,12 +1,11 @@
 Package: geoextras
-Version: 0.1-0
-Date: 2010-11-09
-Title: Extras for Hafro's (MRIs) 'geo' package
+Version: 0.2-0
+Date: 2011-04-24
+Title: Extras for the 'geo' package
 Author: Sigurdur Thor Jonsson, Hoskuldur Bjornsson, Asta Gudmundsdottir, Arni
   Magnusson
 Maintainer: Sigurdur Thor Jonsson <sigurdur@hafro.is>
 Depends: geo
 LazyData: yes
-Description: Functions and data sets that complement the 'geo' package, much
-  used at the Marine Research Institute (Hafro), Reykjavik, Iceland.
+Description: Functions and datasets that complement the 'geo' package.
 License: GPL (>= 2)
