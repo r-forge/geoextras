@@ -1,3 +1,63 @@
+2011-09-26  Sigurdur Jonsson  <sigurdur@hafbrak>
+
+	* R/circle.one.point: New function, returns a circle a round a
+	point with a given radius.
+
+	* R/dist.mat.R: New function, returns a matrix of distances
+	betwenn two lat/lon data.frames / lists.
+
+	* R/dr2A.R: New function, returns area of a 'degree-rectangle'.
+
+	* R/drgrid.R: New function, plots a grid of 'degree-rectangles',
+	as lines or filled polygons.
+
+	* R/frame2gpx.R: New function, writes a lat/lon dataframe to a gpx
+	file with the gpsbabel utility. Probably only in linux.
+
+	* R/geochull.R: New function, returns convex hull of a lat/lon set
+	of points.
+
+	* R/geoinsideList.R: New function, returns index of area in list
+	of areas to which positions belong.
+
+	* R/hr2A.R: New function, returns area of a 'hex-rectangle'.
+
+	* R/hrgrid.R: New function, plots a grid of 'hex-rectangles',
+	as lines or filled polygons.
+
+	* R/intra.point.dist: New function, returns a list of distances
+	between the postions in a lat/lon list / data.frame.
+
+	* R/lat2rA.R: New function, returns area of a 'standard' 15deg lat
+	by 30 deg lon rectangle at a given latitude.
+
+	* R/mr.box.corner.R: New function, variant of mrgrid, instead of
+	supplying center postitions of 'minute-rectangles' to position the
+	grid, a given corner is supplied.
+
+	* R/mr2A.R: New function, returns area of a 'minute-rectangle'.
+
+	* R/mrgrid.R: New function, plots a grid of 'minute-rectangles',
+	as lines or filled polygons.
+
+	* R/r2A.R: New function, returns area of a 'standard-rectangle'. 
+
+	* R/r.bar.plot.R: New function, puts a subplot (only a barplot as
+	is) into a given standard rectangle, the data are supplied as a
+	matrix with lines identifying the target rectangles.
+
+	* R/rgrid.R: New function, plots a grid of 'minute-rectangles',
+	as lines or filled polygons.
+
+	* R/sr2A.R: New function, returns area of a 'sub-rectangles'.
+
+	* R/srgrid.R: New function, plots a grid of 'sub-rectangles',
+	as lines or filled polygons.
+
+	* data/eez.rda: New data set, data fram of 'nordic' EEZs by
+	country, as continous polygons. Courtesy of Einar Hjörleifsson, MRI.
+
+
 2010-11-15  Arni Magnusson  <arnima@hafro.is>
 
 	* man/d2ir.Rd: Simplify help page and reformat to 72 cols.
