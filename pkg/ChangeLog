@@ -1,3 +1,21 @@
+2011-09-28  Sigurdur Jonsson  <sigurdur@hafbrak>
+
+	* R/drA.R: New function, a more exact / formal calculation of
+	dr-rect. area.
+	
+	* R/hrA.R: New function, a more exact / formal calculation of
+	hr-rect. area.
+	
+	* R/mrA.R: New function, a more exact /formal calculation of
+	mr-rect area.
+	
+	* R/rA.R: New function, a more exact / formal calculation of
+	r-rect area.
+	
+	* R/srA.R: New function, a more exact /formal calculation of
+	sr-rect area.
+	
+
 2011-09-26  Sigurdur Jonsson  <sigurdur@hafbrak>
 
 	* R/circle.one.point: New function, returns a circle a round a
