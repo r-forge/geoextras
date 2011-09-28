@@ -1,5 +1,12 @@
 2011-09-28  Sigurdur Jonsson  <sigurdur@hafbrak>
 
+	* R/r.corners.R: New function, needed for old function
+	'r.bar.plot'.
+
+	* data/sap.rda: New data set, sea area proportion for deg-rects
+	abutting / overlapping the coasts of Iceland, Faroes, Jan Mayen
+	and parts of the Norwegian mainland coast and 'coastal islands'.
+
 	* R/drA.R: New function, a more exact / formal calculation of
 	dr-rect. area.
 	
