@@ -1,9 +1,8 @@
 Package: geoextras
 Version: 0.3-0
-Date: 2011-04-24
+Date: 2011-09-30
 Title: Extras for the 'geo' package
-Author: Sigurdur Thor Jonsson, Hoskuldur Bjornsson, Asta Gudmundsdottir, Arni
-  Magnusson
+Author: Sigurdur Thor Jonsson, Arni Magnusson with contribtuions from Asta Gudmundsdottir and Hoskuldur Bjornsson
 Maintainer: Sigurdur Thor Jonsson <sigurdur@hafro.is>
 Depends: geo
 Suggests: maps, mapdata
