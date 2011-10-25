@@ -1,5 +1,5 @@
 mrPeri <-
-function(mr, dlat = 1, dlon = 2)
+function(mr, dlat = 5, dlon = 10)
 {
   lat <- mr2d(mr, dlat = dlat, dlon = dlon)$lat
   lon <- mr2d(mr, dlat = dlat, dlon = dlon)$lon
