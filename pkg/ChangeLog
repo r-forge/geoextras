@@ -1,3 +1,12 @@
+2011-10-25  Sigurdur Jonsson  <sigurdur@hafbrak>
+
+	* Description: Increased the version number and changed the authors.
+
+	* man/rectangleGrid.Rd: Added function 'mrgrid'.
+
+	* man/rectangleGrid.Rd: Help for new function 'mrgrid'.
+	
+
 2011-09-28  Sigurdur Jonsson  <sigurdur@hafbrak>
 
 	* R/r.corners.R: New function, needed for old function
