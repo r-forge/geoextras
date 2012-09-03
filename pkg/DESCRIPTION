@@ -1,11 +1,11 @@
 Package: geoextras
-Version: 0.3-1
-Date: 2012-08-17
+Version: 0.4-0
+Date: 2012-09-03
 Title: Extras for the 'geo' package
-Author: Sigurdur Thor Jonsson, Arni Magnusson with contributions from Asta Gudmundsdottir and Hoskuldur Bjornsson
+Author: Sigurdur Thor Jonsson, Arni Magnusson and Julian Mariano Burgos with contributions from Asta Gudmundsdottir and Hoskuldur Bjornsson
 Maintainer: Sigurdur Thor Jonsson <sigurdur@hafro.is>
 Depends: geo
-Suggests: maps, mapdata
+Suggests: maps, mapdata, sp, maptools, rgdal, raster, spatstat, spatgraphs
 LazyData: yes
 Description: Functions and datasets that complement the 'geo' package.
 License: GPL (>= 2)
