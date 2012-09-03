@@ -2,10 +2,10 @@
 \alias{crossesLand}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+ Crosses land
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+ Function that determines whether or not the great circle connecting tag and return positions crosses land as given in 'land.raster'
 }
 \usage{
 crossesLand(tx, ty, rx, ry, land.raster)

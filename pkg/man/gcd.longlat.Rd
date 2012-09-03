@@ -2,10 +2,10 @@
 \alias{gcd.longlat}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+ Great circle distance
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+ Function that determines great circle distance between two positions given in lat and long. Fairly good agreement with function 'arcdist' in package 'geo'.
 }
 \usage{
 gcd.longlat(tlat, tlon, rlat, rlon)
