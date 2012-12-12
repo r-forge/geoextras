@@ -7,6 +7,7 @@
 \alias{hrgrid}
 
 \title{Produce a grid of rectangles on a plot, filled with colors if desired}
+
 \description{
 
   Functions that produce a line grid or filled with colors for a
@@ -14,6 +15,7 @@
   perimeter utility functions (see \code{\link{rectanglePerimeters}}).
   
 }
+
 \usage{
 mrgrid(mr, dlat = 5, dlon = 10, fill = F, col = "black", ...)
 drgrid(mr, dlat = 1, dlon = 2, fill = F, col = "black", ...)
@@ -28,9 +30,9 @@ hrgrid(mr, fill = F, col = "black", ...)
   \item{mr, dr, r, sr, hr}{ Rectangle codes in the different
   resolutions, \code{mr} dimensions based on minutes, \code{dr}
   dimensions based on degrees, \code{r}, \code{sr} and \code{hr} with
-  their own system (see \code\link{degrees2rectangles}}).  }
+  their own system (see \code{\link{degrees2rectangles}}).}
 
-\item{dlat, dlon}{Dimensions of latitude and longitude given in minutes
+  \item{dlat, dlon}{Dimensions of latitude and longitude given in minutes
   and degrees for \code{mrgrid} and \code{drgrid}, respectively}
 
   \item{fill}{Should the grid be filled with colors?}

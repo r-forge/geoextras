@@ -2,10 +2,13 @@
 \alias{reg.lump}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Lumpfish regions
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+List of areas demarkated by the lumpfish regulation and the main part of
+500 m
+isobath around Iceland (with a simple transverse line over the
+Iceland-Faroe Ridge). 
 }
 \usage{data(reg.lump)}
 \format{
