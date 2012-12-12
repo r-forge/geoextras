@@ -1,5 +1,5 @@
 mrgrid <-
-function (mr, dlat = 5, dlon = 10, fill = F, col = "black", ...) 
+function (mr, dlat = 5, dlon = 10, fill = FALSE, col = "black", ...) 
 {
   mr <- lapply(mr, mrPeri, dlat = dlat, dlon = dlon)
   if(fill) {

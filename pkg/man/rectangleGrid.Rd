@@ -12,16 +12,16 @@
 
   Functions that produce a line grid or filled with colors for a
   rectangle codes in systems of various resolutions, calling the
-  perimeter utility functions (see \code{\link{rectanglePerimeters}}).
+  perimeter utility functions (see \code{\link{rectanglePerimeter}}).
   
 }
 
 \usage{
-mrgrid(mr, dlat = 5, dlon = 10, fill = F, col = "black", ...)
-drgrid(mr, dlat = 1, dlon = 2, fill = F, col = "black", ...)
-rgrid(mr, fill = F, col = "black", ...)
-srrgrid(mr, fill = F, col = "black", ...)
-hrgrid(mr, fill = F, col = "black", ...)
+mrgrid(mr, dlat = 5, dlon = 10, fill = FALSE, col = "black", ...)
+drgrid(dr, dlat = 1, dlon = 2, fill = FALSE, ...)
+rgrid(r, fill = FALSE, ...)
+srgrid(sr, fill = FALSE, ...)
+hrgrid(hr, fill = FALSE, ...)
 }
 
 

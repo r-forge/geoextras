@@ -1,5 +1,5 @@
 drgrid <-
-function(dr, dlat = 1, dlon = 2, fill = F, ...)
+function(dr, dlat = 1, dlon = 2, fill = FALSE, ...)
 {
   n <- length(dr)
   lat <- dr2d(dr, dlat = dlat, dlon = dlon)$lat

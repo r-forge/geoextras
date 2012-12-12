@@ -6,7 +6,7 @@ The 500 nmi isobath within the Icelandic EEZ
 }
 \description{
 The main part of the 500 nmi isobath within the Icelandic EEZ, as given
-by the list \code{\link[geo]{gpdypi}}
+by the list \code{\link[geo]{gbdypi}}
 }
 \usage{data(fiveh)}
 \format{
