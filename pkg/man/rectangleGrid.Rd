@@ -28,7 +28,7 @@ hrgrid(mr, fill = F, col = "black", ...)
   \item{mr, dr, r, sr, hr}{ Rectangle codes in the different
   resolutions, \code{mr} dimensions based on minutes, \code{dr}
   dimensions based on degrees, \code{r}, \code{sr} and \code{hr} with
-  their own system (see \sQoute{degrees2rectangles}).  }
+  their own system (see \code\link{degrees2rectangles}}).  }
 
 \item{dlat, dlon}{Dimensions of latitude and longitude given in minutes
   and degrees for \code{mrgrid} and \code{drgrid}, respectively}

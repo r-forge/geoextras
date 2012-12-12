@@ -1,45 +1,42 @@
 \name{inside.reg.lump}
 \alias{inside.reg.lump}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{
-%%  ~~function to do ... ~~
+Inside region in lumpsucker fishery
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Finds regulation area from a position given in dataframe
 }
 \usage{
 inside.reg.lump(data)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{data}{
-%%     ~~Describe \code{data} here~~
+Data frame with columns \code{lat} and \code{lon} givin postions
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+to be added later
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+Original data with column area added, with index to list of regulation
+  areas in \code{\link{reg.lump}}.
 }
 \references{
-%% ~put references to the literature/web site here ~
+Borrows from \code{\link[geo]{inside.reg.bc}}.
 }
 \author{
-%%  ~~who you are~~
+STJ
 }
 \note{
-%%  ~~further notes~~
+Could be repeated for other area divisions.
 }
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
+
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+\code{\link[geo]{inside.reg.bc}}, \code{\link{reg.lump}}.
 }
 \examples{
 ##---- Should be DIRECTLY executable !! ----
@@ -132,7 +129,6 @@ function (data)
     return(data)
   }
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+
+
+\keyword{manip}
