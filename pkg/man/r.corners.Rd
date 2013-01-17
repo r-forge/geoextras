@@ -27,7 +27,7 @@ Experimental, rudimentary, deprecated?
 }
 
 \seealso{
-\code{\link[geo]{d2r}}, \code{\link[geo]{r2d}}
+\code{\link[geo:deg2rect]{d2r}}, \code{\link[geo:rect2deg]{r2d}}
 }
 \examples{
 ##---- Should be DIRECTLY executable !! ----

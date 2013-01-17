@@ -31,7 +31,7 @@ STJ
 \note{Care needs to be taken to give rectangle center latitudes}
 
 \seealso{
-\code{\link[geo]{rA}} which gets the rectangle area from the rectangle code.
+\code{\link[geo:rectArea]{rA}} which gets the rectangle area from the rectangle code.
 }
 \examples{
 ##---- Should be DIRECTLY executable !! ----

@@ -43,7 +43,8 @@ Esoteric, experimental.
 }
 
 \seealso{
-  \code{\link[geo]{d2mr}}, \code{\link[geo]{mrgrid}},
+  \code{\link[geo:deg2rect]{d2mr}}, 
+  \code{\link[geo:rectGrid]{mrgrid}},
     \code{\link[geo]{geolines}}, \code{\link[geo]{geopolygon}}.
 }
   

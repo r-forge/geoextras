@@ -19,7 +19,7 @@ N-Atlantic coastlines.
 }
 
 \seealso{
-  \code{\link[geo]{drA}}, \code{\link[geo]{drPeri}}.
+  \code{\link[geo:rectArea]{drA}}, \code{\link[geo:rectPeri]{drPeri}}.
 }
 
 \references{
