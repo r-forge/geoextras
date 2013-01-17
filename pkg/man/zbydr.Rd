@@ -2,25 +2,25 @@
 \alias{zbydr}
 \docType{data}
 \title{
-EEZ division of rectangles
+EEZ division of rectangles.
 }
 \description{
-EEZ division of degree rectangles of dimension 1 lat and 2 lon
+EEZ division of degree rectangles of dimensions 1 lat and 2 lon.
 }
 \usage{data(zbydr)}
 \format{
   The format is:
  chr "zbydr"
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
+
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Basic source split of ICES statistical rectangles on EEZs used in blue
+whiting negotiations in the 1990s.
+
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
+\seealso{\code{\link{zbyrec}}}
+
 \examples{
 data(zbydr)
 ## maybe str(zbydr) ; plot(zbydr) ...

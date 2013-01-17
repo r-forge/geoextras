@@ -2,28 +2,38 @@
 \alias{sap}
 \docType{data}
 \title{
-Sea Area Proportion
+Sea Area Proportion.
 }
 \description{
 Sea area proportion of rectangles abutting onto 
-  some of the N-Atlantic coastline
+  some parts of the N-Atlantic coastline.
 }
 \usage{data(sap)}
 \format{
   The format is:
  chr "sap"
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
+
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+N-Atlantic coastlines.
 }
+
+\seealso{
+  \code{\link[geo]{drA}}, \code{\link[geo]{drPeri}}.
+}
+
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+to be filled in after streamlining with modern packages.
 }
+
+\note{
+  Other rectangle dimensions might have to be covered, streamlining
+  the estimation using modern spatial packages.
+}
+
 \examples{
 data(sap)
 ## maybe str(sap) ; plot(sap) ...
 }
+
 \keyword{datasets}

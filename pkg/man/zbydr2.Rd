@@ -2,25 +2,26 @@
 \alias{zbydr2}
 \docType{data}
 \title{
-EEZ divsion of rectangles
+EEZ divsion of rectangles.
 }
 \description{
-EEZ division of 2 by 4 degree rectangles
+EEZ division of 2 by 4 degree rectangles.
 }
 \usage{data(zbydr2)}
 \format{
   The format is:
  chr "zbydr2"
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
+
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+  Basic source split of ICES statistical rectangles on EEZs used
+  in blue whiting negotiations in the 1990s.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
+
+\seealso{
+  \code{link{zbyrec}}
 }
+    
 \examples{
 data(zbydr2)
 ## maybe str(zbydr2) ; plot(zbydr2) ...

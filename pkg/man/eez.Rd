@@ -6,21 +6,19 @@ EEZ boundaries
 }
 \description{
 A data.frame of EEZ boundaries in the N-Atlanic, taken from some site in Belgium
-}
+, a predecessor of \url{http://www.marineregions.org}.}
 \usage{data(eez)}
 \format{
   The format is:
  chr "eez"
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+An update from the new site might be a good idea
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+taken from E. Hj. downloads, should be properly updated from \url{http://www.marineregions.org}. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
 \examples{
 data(eez)
 ## maybe str(eez) ; plot(eez) ...

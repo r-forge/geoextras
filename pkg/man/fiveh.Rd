@@ -20,9 +20,7 @@ unwanted parts of the overall 500 m isobath.
 \source{
 GEBCO
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
 \examples{
 data(fiveh)
 ## maybe str(fiveh) ; plot(fiveh) ...

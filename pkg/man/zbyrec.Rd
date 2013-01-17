@@ -62,7 +62,7 @@ could be reworked using functions in this package and 'geo',
 rectangles.
 
 }
-\seealso{\code{\link{d2ir}}}
+\seealso{\code{\link[geo]{d2ir}}}
 
 \examples{
 data(zbyrec)

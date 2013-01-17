@@ -2,60 +2,51 @@
 \alias{mr.box.corner}
 
 \title{
-Minute rectangle corner
+Minute rectangle corner.
 }
+
 \description{
-Finds the positions of the corner of a rectangle in dimensions of minutes
+From a list of positions giving the corner of a rectangles in dimensions
+of minutes plot a grid or fill with color.
 }
+
 \usage{
 mr.box.corner(pos, dlat = 5, dlon = 10, corner = "NW", fill = F, ...)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
+
   \item{pos}{
-%%     ~~Describe \code{pos} here~~
+position to be 'put in a minute rectangle'. 
 }
-  \item{dlat}{
-%%     ~~Describe \code{dlat} here~~
-}
-  \item{dlon}{
-%%     ~~Describe \code{dlon} here~~
+  \item{dlat, dlon}{
+\code{lat}, \code{lon} dimensions of rectangles.
 }
   \item{corner}{
-%%     ~~Describe \code{corner} here~~
+default \code{NW}, other corners given by \code{NE}, \code{SW} and \code{SE}.
 }
   \item{fill}{
-%%     ~~Describe \code{fill} here~~
+Logical, default FALSE, whether or not to fill the rects.
 }
   \item{\dots}{
-%%     ~~Describe \code{\dots} here~~
-}
-}
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
-\references{
-%% ~put references to the literature/web site here ~
-}
-\author{
-%%  ~~who you are~~
-}
-\note{
-%%  ~~further notes~~
+further args to pass to \code{\link[geo]{geolines}} or \code{\link[geo]{geopolygon}}.
 }
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
+}
+
+\value{
+Adds to a current \code{geoplot}.
+}
+
+\note{
+Esoteric, experimental.
+}
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+  \code{\link[geo]{d2mr}}, \code{\link[geo]{mrgrid}},
+    \code{\link[geo]{geolines}}, \code{\link[geo]{geopolygon}}.
 }
+  
 \examples{
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
@@ -64,7 +55,5 @@ mr.box.corner(pos, dlat = 5, dlon = 10, corner = "NW", fill = F, ...)
 ## The function is currently defined as
 "mr.box.corner"
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+
+\keyword{aplot}
