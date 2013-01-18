@@ -62,11 +62,15 @@ could be reworked using functions in this package and 'geo',
 rectangles.
 
 }
-\seealso{\code{\link[geo]{d2ir}}}
+\seealso{Function \code{d2ir} in the \code{geo}-package.
+%\code{\link[geo]{d2ir}}
+}
 
 \examples{
+\dontrun{
 data(zbyrec)
-tmp<-d2ir(zbyrec)
-all.equal(tmp,zbyrec$rect)
+tmp <- d2ir(zbyrec, useI = TRUE)
+all.equal(tmp, zbyrec$rect)
+}
 }
 \keyword{datasets}

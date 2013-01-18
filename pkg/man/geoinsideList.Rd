@@ -25,7 +25,8 @@ A list of areas given as lat/lon dataframes/lists.
 Index of area in \code{arealist} that records in \code{data} belong to.
 }
 \seealso{
-\code{\link[geo]{inside.reg.bc}}, \code{\link[geo]{inside.reg.lump}}
+\code{\link[geo]{inside.reg.bc}} and function \code{inside.reg.lump} in package \code{geo} 
+%\code{\link[geo]{inside.reg.lump}}, 
 tailored to the bormicon and lumpsucker regulation area divisions, respectively.
 }
 \author{
